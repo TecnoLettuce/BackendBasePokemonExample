@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31501.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreMySQL", "NetCoreMySQL\NetCoreMySQL.csproj", "{818C2E25-22FF-4A63-AB14-FC8124A69780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreApiMySQL.Data", "NetCoreApìMySQL.Data\NetCoreApiMySQL.Data.csproj", "{78605387-6664-4773-8153-5C851DF17C0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreApiMySQL.Model", "NetCoreApìMySQL.Model\NetCoreApiMySQL.Model.csproj", "{3F496B9C-CABA-436F-8CA1-B9E95338FC7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{818C2E25-22FF-4A63-AB14-FC8124A69780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{818C2E25-22FF-4A63-AB14-FC8124A69780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{818C2E25-22FF-4A63-AB14-FC8124A69780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{818C2E25-22FF-4A63-AB14-FC8124A69780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78605387-6664-4773-8153-5C851DF17C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78605387-6664-4773-8153-5C851DF17C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78605387-6664-4773-8153-5C851DF17C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78605387-6664-4773-8153-5C851DF17C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F496B9C-CABA-436F-8CA1-B9E95338FC7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F496B9C-CABA-436F-8CA1-B9E95338FC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F496B9C-CABA-436F-8CA1-B9E95338FC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F496B9C-CABA-436F-8CA1-B9E95338FC7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCCE0718-E53A-4F3A-95B6-1DB3915AA6F5}
+	EndGlobalSection
+EndGlobal
