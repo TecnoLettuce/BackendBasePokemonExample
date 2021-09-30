@@ -6,13 +6,6 @@ using System.Threading.Tasks;
 
 namespace NetCoreApiMySQL.Model
 {
-    /// <summary>
-    /// 
-    /// Esta es la clase modelo,
-    /// Contiene la información de los objetos "Car"
-    /// 
-    /// </summary>
-    /// 
     public class Pokemon
     {
         public int Id { get; set; }
