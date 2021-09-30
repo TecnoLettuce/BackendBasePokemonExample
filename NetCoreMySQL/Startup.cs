@@ -35,7 +35,7 @@ namespace NetCoreMySQL
             services.AddSingleton(mySQLConnectionConfig);
 
             // Se añade la instancia del Interface y del repositorio
-            services.AddScoped<ICarRepository, CarRepository>();
+            services.AddScoped<IPokemonRepository, PokemonRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

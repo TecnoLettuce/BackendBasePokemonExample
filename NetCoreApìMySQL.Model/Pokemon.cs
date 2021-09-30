@@ -13,14 +13,14 @@ namespace NetCoreApiMySQL.Model
     /// 
     /// </summary>
     /// 
-    public class Car
+    public class Pokemon
     {
         public int Id { get; set; }
-        public string Make { get; set; }
-        public string Model { get; set; }
-        public string Color { get; set; }
-        public string Year { get; set; }
-        public int Doors { get; set; }
+        public string Name { get; set; }
+        public string Type1 { get; set; }
+        public string Type2 { get; set; }
+        public int Generation { get; set; }
+        public string Imx_location { get; set; }
 
     }
 }
