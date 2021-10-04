@@ -14,6 +14,5 @@ namespace NetCoreApiMySQL.Model
         public string Type2 { get; set; }
         public int Generation { get; set; }
         public string Imx_location { get; set; }
-
     }
 }

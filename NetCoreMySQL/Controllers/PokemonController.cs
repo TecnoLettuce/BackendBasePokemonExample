@@ -35,7 +35,6 @@ namespace NetCoreMySQL.Controllers
         [HttpPost]
         public async Task<IActionResult> CreatePokemon ([FromBody] Pokemon pokemon)
         {
-
             // Validaciones 
             if (pokemon == null) return BadRequest();
 
