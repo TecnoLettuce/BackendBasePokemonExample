@@ -9,6 +9,7 @@ namespace NetCoreApiMySQL.Data.Repositories
 {
     public interface IPokemonRepository
     {
+        // Interface para el repositorio
         Task<IEnumerable<Pokemon>> GetAllPokemon();
         Task<Pokemon> GetPokemonDetails (int id);
         Task<bool> InsertPokemon (Pokemon car);
